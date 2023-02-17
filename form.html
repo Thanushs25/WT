@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Basic Form</title>
+    <style>
+        *{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>This is a simple form</h3>   <br> <hr>  <br>
+    <form>
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter your name"> <br> <br>
+        <label for="pass"><b>Password</b></label>
+        <input type="password" placeholder="Enter your password"> <br> <br>
+        <label for="dob"><b>DOB</b></label>
+        <input type="date"> <br><br>
+        <label for="gen"><b>Gender</b></label>
+        <input type="radio" name="gen">
+        <label for="male">Male</label>
+        <input type="radio" name="gen">
+        <label for="female">Female</label> <br> <br>
+        <label for="mail"><b>Email</b></label>
+        <input type="email"> <br> <br>
+        <label for="lngs"><b>Languages Known</b></label> <br> <br>
+        <input type="checkbox" name="lngs">
+        <label for="c">C</label> <br>
+        <input type="checkbox" name="lngs">
+        <label for="c++">C++</label> <br>
+        <input type="checkbox" name="lngs">
+        <label for="java">Java</label> <br>
+        <input type="checkbox" name="lngs">
+        <label for="linux">Linux</label> <br><br>
+        <label for="dpt"><b>Department</b></label> <br> <br>
+        <select name="dpt">
+            <option value="cse">Computer Science and Engineering</option>
+            <option value="aiml">Artificial Intelligence and Machine Learning</option>
+            <option value="aids">Artificial Intelligence and Data Science</option>
+            <option value="it">Information Technology</option>
+        </select> <br> <br>
+        <label for="res"><b>Upload Resume</b></label>
+        <input type="file"> <br> <br>
+        <input type="submit"> <br> <br>
+        <input type="reset">
+    </form>
+</body>
+</html>
